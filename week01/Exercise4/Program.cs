@@ -24,6 +24,7 @@ class Program
         int sum = 0;
         int itemNum = 0;
         int lrgNum = 0;
+        
 
         Console.WriteLine("These are the numbers:");
         foreach (int num in numbers)
@@ -38,9 +39,11 @@ class Program
             }
         }
         int avg = sum / itemNum;
+        int ones = sum / 5;
 
         Console.WriteLine($"The sum is: {sum}");
         Console.WriteLine($"The average is:  {avg}");
         Console.WriteLine($"The largest number is:  {lrgNum}");
+        Console.WriteLine($"If you divide by 10:  {ones}");
     }
 }
